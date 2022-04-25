@@ -3,6 +3,18 @@ import pandas
 import matplotlib
 import scipy
 import plot
+#интервальный вариационный ряд
+#выборочное среднее
+#выборочная дисперсия
+#выборочное отклонение
+#мода
+#медиана
+#ассиметрия
+#эксцесс
+#доверительный интервал для генерального среднего
+#доверительный интервал для генеральной дисперсии
+#гистограмма
+
 array_iris=[]
 with open('iris.data') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
